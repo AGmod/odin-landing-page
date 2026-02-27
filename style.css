@@ -20,6 +20,11 @@ a {
     size: 18px;
 }
 
+#stock {
+    width: 400px;
+    height: auto;
+}
+
 .logo {
     color: #e5e7eb;
     size: 18px;
@@ -28,17 +33,53 @@ a {
 
 .header {
     background-color: #1f2937;
+    padding: 18px 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 10px;
+
+
 }
 
 .links {
     display: flex;
     gap: 10px;
+}
+
+.containerone {
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    gap: 16px;
+}
+
+.awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.awesome.secondary {
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 8px 20px;
 }
 
 .footer {
